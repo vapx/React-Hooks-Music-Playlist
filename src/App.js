@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Titletext from "../src/components/common/Titletext";
+import Nav from "../src/components/Nav";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Nav/>
+        <Titletext variant="h1" color="primary" text="Book Music & Comedy Events anywhere in New York"/>
       </header>
-    </div>
   );
 }
 
