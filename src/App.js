@@ -6,11 +6,7 @@ import Nav from "../src/components/Nav";
 
 function App() {
   return (
-      <header>
-        <Nav>
-          <Titletext variant="h4" color="primary" text="Book Music & Comedy Events anywhere in New York"/>
-        </Nav>
-      </header>
+          <Nav />
   );
 }
 
