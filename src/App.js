@@ -1,22 +1,16 @@
-import React,{ useState, useEffect } from "react";
+import React from "react";
 import Nav from "../src/components/Nav";
-import axios from "axios";
-
-
+import Bandlist from "../src/components/Bandlist";
 
 function App() {
-
-  const [ music,setMusic ] = useState("");
-  useEffect(() => {
-    getMusic();
-  },[])
-
 
   return (
       <div>
         <Nav />
+        <Bandlist />
       </div>
-  );
+  )
 }
+
 
 export default App;
