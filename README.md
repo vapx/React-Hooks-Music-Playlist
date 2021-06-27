@@ -7,6 +7,7 @@
 In the project directory, you can run:
 
 ### `mkdir newfolder`
+## `git clone https://github.com/vapx/React-Hooks-Music-Playlist.git`
 ### `cd newfolder`
 ### `yarn install`
 ### `yarn start`
